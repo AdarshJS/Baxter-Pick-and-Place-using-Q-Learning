@@ -19,3 +19,10 @@ color_3, color_2, color_1 represent the colors that appear 3,2,1 times respectiv
 The codes are straightforward and implement Q-Learning using a Q-Table. 
 The actions are chosen by the epsilon-greedy algorithm. The training is done for all possible states out of the total 4^6 states. 
 
+The two folders beginner_tutorials and baxter_simulator have to be placed inside the src folder in your catkin workspace. 
+
+To run the programs and the simulation, run the /baxter.sh file using:
+
+./baxter.sh sim
+
+Then launch the simulation world with the Baxter.
